@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 6 Notes</title>
+    <style>
+      
+      body {
+        margin: 0;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .main-menu {
+        border: 1px solid black;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2em;
+        
+      }
+      
+      main {
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+/*         grid-gap: 5px; */
+      }
+      
+      @media (max-width: 400px){
+        main {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      
+      main > div {
+        width: calc(33vw - 10px);
+        height: calc(33vw - 10px);
+        background-color: red;
+        margin: 0px;
+        border: 8px solid black;
+/*         background-image: url(https://t3.ftcdn.net/jpg/09/38/20/44/360_F_938204480_5BZPwZ4dL5iujr2XZwzkxdFeQJoRDsRE.jpg); */
+        background-size: cover;
+/*         background-repeat: no-repeat; */
+        background-position: center;
+        
+      }
+    
+    
+    </style>
+    
+  </head>
+  <body>
+    
+     <nav class="main-menu">
+    
+      <a href="#">first</a>
+      <a href="#">second</a>
+      <a href="#">third</a>
+    
+    </nav>
+    
+    <main>
+      <div style="background-image: url(https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp);"></div>
+      <div style="background-image: url(https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=)"></div>
+      <div style="background-image: url(https://static.vecteezy.com/system/resources/thumbnails/036/324/708/small/ai-generated-picture-of-a-tiger-walking-in-the-forest-photo.jpg)"></div>
+      <div style="background-image: url(https://st.depositphotos.com/2001755/3622/i/450/depositphotos_36220949-stock-photo-beautiful-landscape.jpg)"></div>
+      <div style="background-image: url(https://create.microsoft.com/_next/image?url=https%3A%2F%2Fcdn.create.microsoft.com%2Fimages%2Fimage-creator-T03_cat.webp&w=1920&q=90)"></div>
+      <div style="background-image: url(https://t3.ftcdn.net/jpg/02/70/35/00/360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg)"></div>
+      <div style="background-image: url(https://t3.ftcdn.net/jpg/02/70/35/00/360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg)"></div>
+      <div style="background-image: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_640.jpg)"></div>
+    
+      <div style="background-image: url(https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=612x612&w=0&k=20&c=UHeb1pGOw6ozr6utsenXHhV19vW6oiPIxDqhKCS2Llk=)"></div>
+    </main>
+
+    
+  </body>
+</html>
